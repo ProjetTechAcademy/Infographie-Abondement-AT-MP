@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographie : Abondement Formation AT/MP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .flowchart-step {
+            position: relative;
+            padding-bottom: 3rem; 
+        }
+        .flowchart-step:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 3rem;
+            background-color: #6187bf;
+        }
+        .flowchart-arrow::after {
+            content: '▼';
+            position: absolute;
+            left: 50%;
+            bottom: -1.25rem;
+            transform: translateX(-50%);
+            color: #00429d;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body class="bg-[#c9f7f9]">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-[#00429d] mb-4">Votre accident de travail ouvre de nouveaux droits à la formation</h1>
+            <p class="text-lg md:text-xl text-[#3e64ae]">Découvrez l'abondement Accident du Travail / Maladie Professionnelle (AT/MP)</p>
+        </header>
+
+        <main class="space-y-12">
+
+            <section class="bg-white rounded-2xl shadow-xl p-8 text-center">
+                <h2 class="text-2xl font-bold text-[#00429d] mb-2">Un financement complémentaire pour votre avenir</h2>
+                <p class="text-6xl font-extrabold text-[#3e64ae] my-4">Jusqu'à 7 500 €</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">Ces droits supplémentaires, mobilisables en plusieurs fois, peuvent compléter le financement de vos projets de formation pour vous aider à vous reconstruire professionnellement.</p>
+            </section>
+            
+            <section>
+                <h2 class="text-2xl font-bold text-[#00429d] text-center mb-8">Êtes-vous concerné ?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+                        <span class="text-5xl mb-4">📄</span>
+                        <h3 class="text-xl font-semibold text-[#00429d] mb-2">Notification de la CNAM</h3>
+                        <p class="text-gray-600">Vous avez reçu une notification de la Caisse Nationale de l'Assurance Maladie.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+                        <span class="text-5xl mb-4">📈</span>
+                        <h3 class="text-xl font-semibold text-[#00429d] mb-2">Taux d'invalidité</h3>
+                        <p class="text-gray-600">Votre taux d'incapacité permanente est supérieur ou égal à 10% suite à un AT/MP.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h2 class="text-2xl font-bold text-[#00429d] text-center mb-8">Durée de validité de vos droits</h2>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+                    <div class="bg-[#a6d1e4] rounded-2xl p-6 text-white shadow-lg">
+                        <p class="text-5xl font-bold text-[#00429d]">2 ans</p>
+                        <p class="mt-2 font-semibold text-[#3e64ae]">Pour les notifications reçues depuis le 1er janvier 2021.</p>
+                    </div>
+                    <div class="bg-[#83acd1] rounded-2xl p-6 text-white shadow-lg">
+                        <p class="text-5xl font-bold text-[#00429d]">5 ans</p>
+                        <p class="mt-2 font-semibold text-[#3e64ae]">Pour les notifications datées entre le 1er janvier 2019 et le 31 décembre 2020.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-[#00429d] text-center mb-10">La procédure à suivre : 5 étapes clés</h2>
+                <div class="max-w-3xl mx-auto">
+                    <div class="flowchart-step">
+                        <div class="bg-white rounded-2xl shadow-lg p-6 text-center flowchart-arrow">
+                            <div class="bg-[#00429d] text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                            <h3 class="text-xl font-semibold text-[#00429d] mb-2">Préparez votre projet</h3>
+                            <p class="text-gray-600">Faites-vous accompagner par un Conseiller en Évolution Professionnelle (CEP) pour définir votre projet de formation.</p>
+                        </div>
+                    </div>
+                    <div class="flowchart-step">
+                        <div class="bg-white rounded-2xl shadow-lg p-6 text-center flowchart-arrow">
+                            <div class="bg-[#00429d] text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                            <h3 class="text-xl font-semibold text-[#00429d] mb-2">Réservez votre formation</h3>
+                            <p class="text-gray-600">Inscrivez-vous à la formation de votre choix sur la plateforme Mon Compte Formation et notez votre numéro de dossier.</p>
+                        </div>
+                    </div>
+                    <div class="flowchart-step">
+                        <div class="bg-white rounded-2xl shadow-lg p-6 text-center flowchart-arrow">
+                            <div class="bg-[#00429d] text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                            <h3 class="text-xl font-semibold text-[#00429d] mb-2">Envoyez votre demande</h3>
+                             <p class="text-gray-600">Utilisez le formulaire de contact dédié sur votre espace Mon Compte Formation pour soumettre votre demande d'abondement.</p>
+                        </div>
+                    </div>
+                    <div class="flowchart-step">
+                        <div class="bg-white rounded-2xl shadow-lg p-6 text-center flowchart-arrow">
+                            <div class="bg-[#00429d] text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                            <h3 class="text-xl font-semibold text-[#00429d] mb-2">Joignez les justificatifs</h3>
+                            <p class="text-gray-600">N'oubliez pas d'attacher la copie de votre notification CNAM et l'attestation de votre CEP.</p>
+                        </div>
+                    </div>
+                     <div class="flowchart-step">
+                        <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+                            <div class="bg-[#00429d] text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold mx-auto mb-4">5</div>
+                            <h3 class="text-xl font-semibold text-[#00429d] mb-2">Attendez la confirmation</h3>
+                            <p class="text-gray-600">La Caisse des Dépôts étudie votre dossier. Ne finalisez rien avant d'avoir reçu leur accord.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h2 class="text-2xl font-bold text-[#00429d] text-center mb-8">Contacts et points de vigilance</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                     <div class="bg-white rounded-2xl shadow-lg p-6">
+                        <h3 class="text-xl font-semibold text-[#00429d] mb-2">Cas particulier : Arrêt de travail</h3>
+                        <p class="text-gray-600">Si vous êtes en arrêt, l'accord de votre Caisse Primaire d'Assurance Maladie (CPAM) est indispensable pour maintenir vos indemnités journalières. L'acceptation de votre formation ne vaut pas accord de la CPAM.</p>
+                        <p class="mt-4 font-bold text-[#3e64ae]">Contactez le service social au 36 46.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg p-6">
+                        <h3 class="text-xl font-semibold text-[#00429d] mb-2">Accompagnement obligatoire</h3>
+                        <p class="text-gray-600">Le suivi par un Conseiller en Évolution Professionnelle (CEP) est une condition nécessaire pour mobiliser ces droits. C'est votre principal allié dans cette démarche.</p>
+                         <p class="mt-4 font-bold text-[#3e64ae]">Trouvez votre CEP sur mon-cep.org.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="text-center mt-16 text-xs text-[#3e64ae]">
+            <p>Mon Compte Formation est un service mandaté par le ministère du Travail, de la Santé, des Solidarités et des Familles, géré par la Caisse des Dépôts.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
